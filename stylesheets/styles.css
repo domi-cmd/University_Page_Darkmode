@@ -1,0 +1,104 @@
+:root {
+    --primary-gray: #40444B;
+    --secondary-gray: #36393F;
+    --tertiary-gray: #2F3136;
+    --quartiary-gray: #202225;
+    --pentiary-gray: #18191C;
+    --text-primary-color: white;
+}
+
+
+
+
+/*
+    Content background color
+*/
+.il-layout-page {
+    background: var(--secondary-gray) !important;
+}
+/*
+    Page content text colors
+*/
+.il-panel-listing-std-container > h2, h1, h3 {
+    color: var(--text-primary-color) !important;
+}
+.il-item .il-item-title .btn-link, .il-item .il-item-title {
+    color: var(--text-primary-color) !important;
+}
+body {
+    color: var(--text-primary-color) !important;
+    background-color: white;
+}
+a {
+    color: var(--text-primary-color) !important;
+}
+/*
+    Page content container colors
+*/
+.il-item-group {
+    background-color: var(--primary-gray) !important;
+}
+.il-item {
+    background-color: var(--primary-gray) !important;
+}
+
+/*
+Content title container background color
+*/
+div.il_HeaderInner.media {
+    background-color: var(--tertiary-gray) !important;
+}
+
+
+
+
+
+/*
+    Sidebar color
+*/
+.il-mainbar {
+    background-color: var(--quartiary-gray) !important;
+}
+
+/*
+    Sidebar icons color
+*/
+.il-mainbar-triggers .btn-bulky,
+.il-mainbar-triggers .il-link.link-bulky {
+    background: var(--quartiary-gray) !important;
+    border-bottom: 1px solid var(--pentiary-gray) !important;
+}
+
+/*
+    Sidebar icons edges color
+*/
+.il-mainbar-entries {
+    background-color: var(--pentiary-gray);
+}
+
+/*
+    Sidebar icons text color
+*/
+.il-mainbar-triggers .btn-bulky .bulky-label,
+.il-mainbar-triggers .il-link.link-bulky .bulky-label {
+    color: var(--text-primary-color) !important;
+}
+
+
+
+
+/*
+    Header color
+*/
+.header-inner {
+    background: var(--pentiary-gray) !important;
+    color: var(--text-primary-color);
+    border-bottom: 1px solid var(--pentiary-gray) !important;
+}
+
+/*
+    Header text color
+*/
+.il-pagetitle {
+    color: var(--text-primary-color) !important;
+}

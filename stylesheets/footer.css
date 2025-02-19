@@ -1,0 +1,7 @@
+/*
+    Background color of footer
+*/
+footer {
+    background-color: var(--tertiary-gray) !important;
+    border-top: 1px solid var(--pentiary-gray) !important;
+}

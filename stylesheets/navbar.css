@@ -1,0 +1,46 @@
+/*
+    General background color of extendable navbar
+*/
+.il-mainbar-slates {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background: var(--tertiary-gray) !important;
+}
+
+/*
+    Background color of elements extendable navbar
+*/
+.il-maincontrols-slate .btn-bulky,
+.il-maincontrols-slate .link-bulky {
+    background-color: var(--secondary-gray) !important;
+}
+
+/*
+    Text color
+*/
+.il-link.link-bulky .bulky-label {
+    color: var(--text-primary-color) !important;
+}
+
+/*
+    Close navbar symbol color
+*/
+.glyph {
+    color: var(--text-primary-color) !important;
+}
+
+/*
+    Border colors of navbar
+*/
+.il-mainbar-close-slates .btn-bulky {
+    border-top: 1px solid var(--pentiary-gray) !important;
+}
+.il-mainbar-slates {
+    border-right: 1px solid var(--pentiary-gray) !important;
+}
+
+/*
+    Extendable nav dropdown seperation color
+*/
+.panel-secondary .il-std-item-container:not(:last-child) {
+    border-bottom: 1px solid var(--pentiary-gray) !important;
+}
