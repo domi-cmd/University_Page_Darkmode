@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ILIAS Dark Mode",
   "version": "1.1",
-  "description": "Changes the background of ILIAS to black on all pages.",
+  "description": "Mostly working :)",
   "content_scripts": [
     {
       "matches": ["https://ilias.unibe.ch/*"],
