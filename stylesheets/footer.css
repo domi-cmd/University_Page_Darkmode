@@ -5,3 +5,13 @@ footer {
     background-color: var(--tertiary-gray) !important;
     border-top: 1px solid var(--pentiary-gray) !important;
 }
+
+/*
+    Footer text color
+*/
+.il-footer-text {
+    color: var(--text-primary-color) !important;
+}
+.il-maincontrols-footer .il-footer-links li a, .il-maincontrols-footer .il-footer-links li button {
+    color: var(--text-primary-color) !important;;
+}

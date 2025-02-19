@@ -16,28 +16,42 @@
 .il-layout-page {
     background: var(--secondary-gray) !important;
 }
+
 /*
     Page content text colors
 */
-.il-panel-listing-std-container > h2, h1, h3 {
+.il-panel-listing-std-container>h2,
+h1,
+h3 {
     color: var(--text-primary-color) !important;
 }
-.il-item .il-item-title .btn-link, .il-item .il-item-title {
+
+.il-item .il-item-title .btn-link,
+.il-item .il-item-title {
     color: var(--text-primary-color) !important;
 }
+
 body {
     color: var(--text-primary-color) !important;
-    background-color: white;
+    background-color: var(--secondary-gray) !important;
 }
+
 a {
     color: var(--text-primary-color) !important;
 }
+.il-item .il-item-property-name {
+    color: var(--text-primary-color) !important;
+}
+
+
+
 /*
     Page content container colors
 */
 .il-item-group {
     background-color: var(--primary-gray) !important;
 }
+
 .il-item {
     background-color: var(--primary-gray) !important;
 }
@@ -49,6 +63,9 @@ div.il_HeaderInner.media {
     background-color: var(--tertiary-gray) !important;
 }
 
+.il-layout-page {
+    background-color: var(--secondary-gray) !important;
+}
 
 
 

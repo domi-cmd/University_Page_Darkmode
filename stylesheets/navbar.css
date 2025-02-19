@@ -44,3 +44,11 @@
 .panel-secondary .il-std-item-container:not(:last-child) {
     border-bottom: 1px solid var(--pentiary-gray) !important;
 }
+
+
+/*
+    Add hover background for navbar
+*/
+.il-maincontrols-slate .btn-bulky:hover, .il-maincontrols-slate .link-bulky:hover, .il-maincontrols-slate .btn-bulky.engaged, .il-maincontrols-slate .link-bulky.engaged {
+    background-color: var(--quartiary-gray) !important;
+}

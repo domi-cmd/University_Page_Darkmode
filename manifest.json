@@ -7,7 +7,7 @@
     {
       "matches": ["https://ilias.unibe.ch/*"],
       "js": ["/javascripts/main_page_icon.js", "/javascripts/small_icons.js", "/javascripts/course_icon.js"],
-      "css": ["/stylesheets/styles.css", "/stylesheets/navbar.css", "/stylesheets/footer.css"]
+      "css": ["/stylesheets/styles.css", "/stylesheets/navbar.css", "/stylesheets/footer.css", "/stylesheets/calendar_page.css"]
     }
   ],
   "permissions": ["activeTab"]

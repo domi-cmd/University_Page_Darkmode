@@ -1,0 +1,133 @@
+/*
+    Background color of lower part of title container
+*/
+#ilTab {
+    background-color: var(--tertiary-gray) !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: var(--primary-gray) !important;
+    border-bottom: 0px solid var(--pentiary-gray) !important;
+    color: #000000;
+}
+
+/*
+    Lower Navbar On Calendar page coloring
+*/
+.il-viewcontrol-mode {
+    background-color: var(--tertiary-gray) !important;
+}
+
+
+/*
+    Color when hovering menu options
+*/
+.nav-tabs > li:hover > a {
+    background-color: var(--primary-gray) !important;
+}
+
+/*
+    Coloring of actual calendar
+*/
+.calheadertime {
+    background-color: var(--tertiary-gray) !important;
+    border-color: var(--pentiary-gray) !important;
+}
+table.il-cal-day tr.calstd + tr.calstdtime td.calempty, table.il-cal-week tr.calstd + tr.calstdtime td.calempty {
+    background-color: var(--primary-gray) !important;
+}
+td.calempty_border {
+    background-color: var(--primary-gray) !important;
+    border-bottom-color: var(--pentiary-gray) !important;
+}
+td.calempty, th.calempty {
+    background-color: var(--primary-gray) !important;
+}
+.calstdtime td {
+    border-right-color: var(--pentiary-gray) !important;
+}
+td.calstd {
+    background-color: var(--tertiary-gray) !important;
+    border-color: var(--pentiary-gray) !important;
+}
+th.calstd {
+    background-color: var(--tertiary-gray) !important;
+    border-color: var(--pentiary-gray) !important;
+}
+tr.calstd {
+    background-color: var(--pentiary-gray) !important;
+}
+table.il-cal-day tr.calstd, table.il-cal-week tr.calstd {
+    border-color: var(--pentiary-gray) !important;
+}
+
+
+/*
+    First side calendar small
+*/
+.panel .panel-body {
+    background-color: var(--primary-gray) !important;
+}
+table.calmini tr {
+    background-color: var(--primary-gray) !important;
+}
+table.calmini {
+    background-color: var(--primary-gray) !important;
+}
+.panel-flex .panel-heading .il-viewcontrol-pagination, .panel-flex .panel-heading .il-viewcontrol-section {
+    background-color: var(--tertiary-gray) !important;
+}
+.panel .panel-heading.ilHeader, .panel .panel-heading.ilBlockHeader {
+    background-color: var(--tertiary-gray) !important;
+}
+
+/*
+    General coloring of buttons on calendar page
+*/
+.btn-default, .btn-ctrl {
+    color: var(--text-primary-color) !important;
+    background-color: var(--tertiary-gray) !important;
+    border-color: var(--tertiary-gray) !important;
+}
+
+/*
+    General text coloring
+*/
+.calheader {
+    color: var(--text-primary-color) !important;
+}
+table.calstd {
+    color: var(--text-primary-color) !important;
+}
+.panel .panel-heading.ilHeader h2, .panel .panel-heading.ilBlockHeader h2, .panel .panel-heading.ilHeader h2.ilHeader, .panel .panel-heading.ilBlockHeader h2.ilHeader {
+    color: var(--text-primary-color) !important;
+}
+table.calmini tr, table.calmini td, table.calmini th {
+    color: var(--text-primary-color) !important;
+}
+.light {
+    color: var(--text-primary-color) !important;
+}
+
+
+
+/*
+    Adjusting color of carets (three black dots)
+*/
+button .caret:before {
+    color: var(--text-primary-color) !important;
+    background-color: transparent !important;
+}
+
+
+/*
+    Calendar dropdown
+*/
+.dropdown-menu {
+    background-color: var(--tertiary-gray) !important;
+}
+
+
+/*
+    Glyph icons
+*/
