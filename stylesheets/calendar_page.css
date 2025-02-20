@@ -60,7 +60,18 @@ tr.calstd {
 table.il-cal-day tr.calstd, table.il-cal-week tr.calstd {
     border-color: var(--pentiary-gray) !important;
 }
-
+/*
+    Fix color of calendar events border
+*/
+td.calevent {
+    border-color: var(--pentiary-gray) !important;
+    background-color: #FF4A59 !important;
+}
+.il_calevent.calfullcontent {
+    border-color: var(--pentiary-gray) !important;
+    color: var(--text-primary-color) !important;
+    background-color: #FF4A59 !important;
+}
 
 /*
     First side calendar small
