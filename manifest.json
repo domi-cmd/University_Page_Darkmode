@@ -5,11 +5,12 @@
   "description": "Mostly working :)",
   "content_scripts": [
     {
-      "matches": ["https://ilias.unibe.ch/*"],
+      "matches": ["https://ilias.unibe.ch/*", "https://unibe.login.eduid.ch/*"],
       "js": ["/javascripts/main_page_icon.js", "/javascripts/communication_icon_color.js", "/javascripts/course_icon.js", "/javascripts/workspace_icon_color.js", "/javascripts/unibe_icon_color.js",
        "/javascripts/small_icon_unibe_color.js", "/javascripts/small_icon_baumansicht_color.js", "/javascripts/small_icon_itools_color.js", "/javascripts/small_icon_calendar_color.js",
       "/javascripts/workspace_second_nav_icons_color.js"],
-      "css": ["/stylesheets/styles.css", "/stylesheets/navbar.css", "/stylesheets/footer.css", "/stylesheets/calendar_page.css"]
+      "css": ["/stylesheets/styles.css", "/stylesheets/navbar.css", "/stylesheets/footer.css", "/stylesheets/calendar_page.css",
+    "/stylesheets/login_page.css"]
     }
   ],
   "permissions": ["activeTab"]
